@@ -66,7 +66,7 @@ const Home: React.FC = () => {
         <BriefWhoWeAreInformations>
           <FiBookmark size={24} color="#04D361" fill="#04D361" />
           <h1>
-            INOVAÇÃO, TECNOLOGIA E DEDICAÇÃO LEVARAM VOCÊ SUA EMPRESA AO
+            INOVAÇÃO, TECNOLOGIA E DEDICAÇÃO LEVARÃO VOCÊ SUA EMPRESA AO
             SUCESSO!
           </h1>
           <h2>
@@ -99,7 +99,7 @@ const Home: React.FC = () => {
           <SuperText className="SuperText">Missão</SuperText>
           <H1>
             Trazer inovação, solução e tecnologia para o mundo, buscando sempre
-            evoluir e inventar
+            evoluir e inventar.
           </H1>
         </MVV>
         <MVV>
@@ -109,7 +109,8 @@ const Home: React.FC = () => {
           <SuperText className="SuperText">Visão</SuperText>
           <H1>
             Ser referencia em diversas áreas de tecnologia e engenharia além de
-            propiciar diversas soluções atendendo o mais de pessoas e empresas
+            propiciar diversas soluções atendendo o máximo número de pessoas e
+            empresas.
           </H1>
         </MVV>
         <MVV>
@@ -118,10 +119,10 @@ const Home: React.FC = () => {
           </Circle>
           <SuperText className="SuperText">Valores</SuperText>
           <H1>
-            Ouvir sempre o cliente, compreender e solucionar corretamente seu
-            problema, buscar o desenvolvimento de tecnologias que não sejam
-            prejudiciais ao meio ambiente, e o desenvolvimento sábio e securo da
-            I.A.
+            Ouvir sempre o cliente, compreender e solucionar corretamente o
+            problema proposto, buscar o desenvolvimento de tecnologias que não
+            sejam prejudiciais ao meio ambiente e o desenvolvimento sábio e
+            seguro da I.A.
           </H1>
         </MVV>
       </MVVSection>

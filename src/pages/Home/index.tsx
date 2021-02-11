@@ -11,6 +11,7 @@ import {
   FiPlay,
   FiTwitter,
 } from "react-icons/fi";
+
 import Header from "../../components/Header";
 import {
   AttractionSection,
@@ -50,7 +51,7 @@ const Home: React.FC = () => {
       <Header />
       <MainText>
         <SuperText>
-          REIVENTE-SE COMO A TECNOLOGIA, EVOLUA COMO O MUNDO
+          BUSQUE NOVAS FRONTEIRAS, REINVENTE-SE COM A TECNOLOGIA
           <code>!</code>
         </SuperText>
         <H1>
@@ -76,17 +77,17 @@ const Home: React.FC = () => {
           </h2>
         </BriefWhoWeAreInformations>
       </BriefWhoWeAreSection>
-      <WhoWheAreSection>
+      <WhoWheAreSection className="whoweare">
         <WhoWeAreContent>
           <FiBookmark size={24} color="#04D361" fill="#04D361" />
           <h1>
-            INOVAÇÃO, TECNOLOGIA E DEDICAÇÃO LEVARAM VOCÊ SUA EMPRESA AO
-            SUCESSO!
+            SOMOS UMA EMPRESA VOLTADA A SOLUÇÃO DE PROBLEMAS A PARTIR DO USO E
+            CRIAÇÃO DE NOVAS TECNOLOGIAS
           </h1>
           <h2>
-            Desenvolvemos tecnologia para ajudar você e o mundo, com conceitos
-            inovadores, aplicando conhecimentos da área da ciência de dados,
-            programação, eletrônica, mecânica, estátistica e muito mais.
+            A empresa surgiu em 2018 com o intuito de desenvolver uma solução
+            para as empresas que precisavam de melhorar o contato com o seu
+            cliente, expor seus produtos e aumentarem o número de prospects.
           </h2>
         </WhoWeAreContent>
         <img src={whoWeAreImage} alt="Who we are idea lamp" />
@@ -108,7 +109,7 @@ const Home: React.FC = () => {
           </Circle>
           <SuperText className="SuperText">Visão</SuperText>
           <H1>
-            Ser referencia em diversas áreas de tecnologia e engenharia além de
+            Ser referência em diversas áreas da tecnologia e engenharia,
             propiciar diversas soluções atendendo o máximo número de pessoas e
             empresas.
           </H1>
@@ -119,10 +120,10 @@ const Home: React.FC = () => {
           </Circle>
           <SuperText className="SuperText">Valores</SuperText>
           <H1>
-            Ouvir sempre o cliente, compreender e solucionar corretamente o
+            Aproximar o cliente, compreender e solucionar corretamente o
             problema proposto, buscar o desenvolvimento de tecnologias que não
-            sejam prejudiciais ao meio ambiente e o desenvolvimento sábio e
-            seguro da I.A.
+            prejudiciais ao meio ambiente e o desenvolvimento sábio e seguro da
+            I.A.
           </H1>
         </MVV>
       </MVVSection>
@@ -142,7 +143,7 @@ const Home: React.FC = () => {
         <SolutionContent>
           <SolutionContentTitle>
             <FiPlay size={24} color="#04D361" fill="#04D361" />
-            <H1>Altair</H1>
+            <H1>Enterprise</H1>
           </SolutionContentTitle>
           <SolutionAttibutesGroup>
             <SolutionAttributes>

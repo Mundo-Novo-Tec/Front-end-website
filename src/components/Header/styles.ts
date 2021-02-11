@@ -1,5 +1,9 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { shade } from "polished";
+
+interface IAProps {
+  status: boolean;
+}
 
 export const Content = styled.div`
   display: flex;
@@ -7,6 +11,14 @@ export const Content = styled.div`
   justify-content: center;
 
   width: 100%;
+`;
+
+export const A = styled.a<IAProps>`
+  ${props =>
+    props.status &&
+    css`
+      color: #04d361;
+    `}
 `;
 
 export const Container = styled.div`

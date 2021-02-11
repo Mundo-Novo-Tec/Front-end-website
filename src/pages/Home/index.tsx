@@ -77,7 +77,7 @@ const Home: React.FC = () => {
           </h2>
         </BriefWhoWeAreInformations>
       </BriefWhoWeAreSection>
-      <WhoWheAreSection className="whoweare">
+      <WhoWheAreSection id="who_we_are">
         <WhoWeAreContent>
           <FiBookmark size={24} color="#04D361" fill="#04D361" />
           <h1>
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
         </PartnersLogoContent>
       </PartnersSection>
 
-      <SolutionsSection>
+      <SolutionsSection id="products">
         <H1>NOSSAS SOLUÇÕES</H1>
         <SolutionContent>
           <SolutionContentTitle>
@@ -192,7 +192,7 @@ const Home: React.FC = () => {
           <button type="submit">Saiba Mais</button>
         </SolutionContent>
       </SolutionsSection>
-      <Footer>
+      <Footer id="contact">
         <FooterContent>
           <SocialMediaContent>
             <FiFacebook size={24} color="#04D361" />
